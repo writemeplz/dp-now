@@ -1,0 +1,62 @@
+@import 'variables';
+
+
+/* Desktop */
+
+@media (min-width: 1024px) {
+    .header__title {
+        display: block;
+        margin-right: auto;
+        //        font-family: chingolo-pro, 'Antonio', 'Oswald', sans-serif;
+        font-size: 26px;
+        font-weight: 500;
+
+        // text-transform: uppercase;
+        // Graphik font logo
+        // font-size: 40px;
+        // font-weight: 500;
+        // opacity: 0.2;
+        color: $color-grey100;
+        align-items: center;
+    }
+
+}
+
+
+
+
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header__title {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0 0 20px 0;
+        color: $color-grey100;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1;
+
+    }
+}
+
+
+
+
+/* Mobile */
+@media (max-width: 768px) {
+    .header__title {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0 0 20px 0;
+        color: $color-grey100;
+
+        line-height: 1;
+        //        font-weight: 400;
+        //        font-family: chingolo-pro, 'Antonio', 'Oswald', sans-serif;
+        font-size: 22px;
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,60 @@
+@import 'variables';
+
+
+/* Desktop */
+
+@media (min-width: 1024px) {
+    .about-me__text {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 1px;
+        margin: 0 0 90px 0;
+        line-height: 1.05;
+
+        // font-size: 80px;
+        font-size: calc(58px + 2.6vw);
+
+        font-weight: 500;
+        letter-spacing: -2px;
+        color: $color-grey100;
+
+    }
+
+
+}
+
+
+
+
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .about-me__text {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0 0 25px 0;
+        font-size: 64px;
+        line-height: 1.1;
+        font-weight: 600;
+        color: $color-grey100;
+    }
+}
+
+
+
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    .about-me__text {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0 0 40px 0;
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 600;
+        color: $color-grey100;
+    }
+}

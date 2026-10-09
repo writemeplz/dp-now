@@ -1,0 +1,45 @@
+@keyframes slideDown {
+  from {
+    transform: translate(0, -1000px);
+  }
+  to {
+    transform: translate(0, 0);
+  }
+}
+/* Desktop */
+@media (min-width: 1024px) {
+  .header__title {
+    display: block;
+    margin-right: auto;
+    font-size: 26px;
+    font-weight: 500;
+    color: #111;
+    align-items: center;
+  }
+}
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header__title {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 0 20px 0;
+    color: #111;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1;
+  }
+}
+/* Mobile */
+@media (max-width: 768px) {
+  .header__title {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 0 20px 0;
+    color: #111;
+    line-height: 1;
+    font-size: 22px;
+    font-weight: 500;
+  }
+}

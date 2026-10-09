@@ -1,0 +1,17 @@
+@keyframes slideDown {
+  from {
+    transform: translate(0, -1000px);
+  }
+  to {
+    transform: translate(0, 0);
+  }
+}
+@media (min-width: 1024px) {
+  /* Desktop */
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Tablets */
+}
+@media (max-width: 768px) {
+  /* Mobile */
+}/*# sourceMappingURL=comp-0000.-template.css.map */

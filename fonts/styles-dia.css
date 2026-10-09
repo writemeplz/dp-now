@@ -1,0 +1,10 @@
+/* @font-face {
+	font-family: "Cargo-DiatypePlusVariable";
+	src: url(Cargo-DiatypePlusVariable.ttf) format("truetype");
+} */
+
+@font-face {
+	font-family: "DiatypePlusVariable";
+	src: url(Cargo-DiatypePlusVariable.ttf) format("truetype"),
+		url(Cargo-DiatypePlusVariable.woff2) format("woff2");
+}
